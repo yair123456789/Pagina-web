@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Formulario Deposito</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="librerias/bootstrap/css/bootstrap.css">
+	<script src="librerias/jquery-3.2.1.min.js"></script>
+	<script src="js/funciones.js"></script>
+</head>
+<body style="background-color: #2271b3">
+	<br><br><br>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4">
+				<div class="panel panel-danger">
+					<div class="panel panel-heading">Menu de Operaciones</div>
+					<div class="panel panel-body">
+						<form action="Deposita.php" name="Fromulario_Registro" method="post">
+							<label>Ingrese el ID del Cliente:</label>
+							<input type="text" class="form-control input-sm" name="idcliente">
+							<label>Ingrese el Saldo que Desea Depositar:</label>
+							<input type="text" class="form-control input-sm" name="Monto">
+							<p></p>
+							<input class="btn btn-success"  type="submit" value="Realizar Transaccion">
+						</form>
+						<p></p>
+						<a style="background-color: #2271b3" class="btn btn-danger" href="Transaccion.html">Regresar al Menu</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4"></div>
+		</div>
+	</div>
+</body>
+</html>

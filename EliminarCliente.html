@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>ELIMINAR CLIENTE</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="librerias/bootstrap/css/bootstrap.css">
+	<script src="librerias/jquery-3.2.1.min.js"></script>
+	<script src="js/funciones.js"></script>
+</head>
+<body style="background-color: #2271b3">
+	<br><br><br>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4">
+				<div class="panel panel-danger">
+					<div class="panel panel-heading">Eliminar Cliente</div>
+					<div class="panel panel-body">
+						<form action="EliminarCliente.php" name="formulario_registro" method="post">
+							<label>ingresa el id del cliente:</label>
+							<input type="text" class="form-control input-sm" name="idcliente">
+							<p></p>
+							<input style="background-color: green" class="btn btn-primary" type="submit" value="Eliminar">
+						</form>
+						<p></p>
+						<a style="background-color: #2271b3" class="btn btn-danger" href="Menu.html">Regresar al Menu</a>
+						<p></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4"></div>
+		</div>
+	</div>
+</body>
+
+</html>

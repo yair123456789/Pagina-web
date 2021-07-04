@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title> Altas De Clientes</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="librerias/bootstrap/css/bootstrap.css">
+	<script src="librerias/jquery-3.2.1.min.js"></script>
+	<script src="js/funciones.js"></script>
+</head>
+<body style="background-color: #2271b3">
+	<br><br><br>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4">
+				<div class="panel panel-danger">
+					<div class="panel panel-heading">ALTAS DE CLIENTES</div>
+					<div class="panel panel-body">
+							<form action="AltaCliente.php" name="formulario_registro" method="post">
+								<label>Ingrese el ID del Cliente Nuevo:</label>
+								<input type="text" class="form-control input-sm" name="idcliente">
+								
+								<label>Ingrse el Nombre del Cliente Nuevo:</label>
+								<input type="text" class="form-control input-sm" name="nombre">
+								
+								<label>Ingrese el Apellido Paterno del Cliente Nuevo:</label>
+								<input type="text" class="form-control input-sm" name="apaterno">
+								<label>Ingrese el Apellido Materno del Cliente Nuevo:</label>
+								<input type="text" class="form-control input-sm" name="amaterno">
+								
+								<label>Ingrese el Saldo del Cliente Nuevo</label>
+								<input type="text" class="form-control input-sm" name="saldo">
+								
+								<label>Ingrese el Telefono del Cliente Nuevo </label>
+								<input type="text" class="form-control input-sm" name="telefono">
+								
+								<label>Ingrese el Correo del Cliente Nuevo</label>
+								<input type="text" class="form-control input-sm" name="correo">
+								<p></p>
+								<input style="background-color: green" type="submit" class="btn btn-primary" value="Dar de Alta">
+							</form> 
+							<br>
+							<a style="background-color: #2271b3" class="btn btn-danger" href="Menu.html">Regresar al Menu</a>
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4"></div>
+		</div>
+	</div>
+	
+</body>
+</html>
